@@ -1,4 +1,4 @@
-def read_lst(filename):
+def read_list(filename):
 	with open(filename, "r") as lista:
 		return [x.rstrip() for x in lista.readlines()]
 
